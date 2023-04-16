@@ -1,0 +1,44 @@
+:root{
+    --main-color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../src/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    font-family:"Orbitron",sans-serif;
+    color: var(--main-color);
+    font-weight:400;
+    text-align: center;
+    border: 1px solid yellow;
+    
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 13px;
+
+    background: rgba(122,158,166,1) ;
+    background:rgb(24,101,184);
+    background: radial-gradient(circle, rgba(24,101,184,1) 3%, rgba(181,244,164,1) 7%, rgba(24,184,116,1) 12%, rgba(170,43,67,1) 21%, rgba(59,159,141,1) 28%, rgba(148,75,131,1) 35%, rgba(217,91,91,1) 43%, rgba(234,239,241,1) 50%, rgba(114,53,117,1) 57%, rgba(122,158,166,1) 64%, rgba(72,122,133,1) 70%, rgba(255,196,43,1) 76%, rgba(219,37,17,1) 79%, rgba(62,208,121,1) 84%, rgba(204,255,27,1) 87%, rgba(135,105,69,1) 92%, rgba(213,50,204,1) 96%, rgba(13,69,255,1) 99%);;
+
+    
+    opacity: 90%;
+
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%)
+
+}
